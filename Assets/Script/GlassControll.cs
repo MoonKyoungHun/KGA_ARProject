@@ -50,26 +50,36 @@ public class GlassControll : MonoBehaviour
 
     public void Glass1()
     {
+        glassTracker.SetActive(false);
+
         glassTracker = Instantiate(glassPrefabs[0]);
     }
 
     public void Glass2()
     {
+        glassTracker.SetActive(false);
+
         glassTracker = Instantiate(glassPrefabs[1]);
     }
 
     public void Glass3()
     {
+        glassTracker.SetActive(false);
+
         glassTracker = Instantiate(glassPrefabs[2]);
     }
 
     public void Glass4()
     {
+        glassTracker.SetActive(false);
+
         glassTracker = Instantiate(glassPrefabs[3]);
     }
 
     public void Glass5()
     {
+        glassTracker.SetActive(false);
+
         glassTracker = Instantiate(glassPrefabs[4]);
     }
 }
