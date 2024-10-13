@@ -496,10 +496,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 6
+      - m_Target: {fileID: 942951888}
+        m_TargetAssemblyTypeName: GlassControll, Assembly-CSharp
+        m_MethodName: Glass1
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -764,7 +764,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 843456151}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 942951888}
+        m_TargetAssemblyTypeName: GlassControll, Assembly-CSharp
+        m_MethodName: Glass3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &843456151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1089,7 +1101,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 904856244}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 942951888}
+        m_TargetAssemblyTypeName: GlassControll, Assembly-CSharp
+        m_MethodName: Glass5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &904856244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1137,7 +1161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 942951887}
-  - component: {fileID: 942951886}
+  - component: {fileID: 942951888}
   m_Layer: 0
   m_Name: GlassController
   m_TagString: Untagged
@@ -1145,7 +1169,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &942951886
+--- !u!4 &942951887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942951885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.2681983, y: 0.53799194, z: 1.8916053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &942951888
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1164,21 +1203,6 @@ MonoBehaviour:
   - {fileID: 7972918867608044839, guid: eda0dc4ced1feea4fb119206baada980, type: 3}
   - {fileID: 2855534503652070524, guid: 8beca7694104d5141972ecb146efb78c, type: 3}
   - {fileID: 2526463500670489496, guid: 62d95f9f20d7a234487a7e7d6dd9b04a, type: 3}
---- !u!4 &942951887
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 942951885}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2681983, y: 0.53799194, z: 1.8916053}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &947072867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,7 +1717,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1521958268}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 942951888}
+        m_TargetAssemblyTypeName: GlassControll, Assembly-CSharp
+        m_MethodName: Glass2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1521958268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1815,7 +1851,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1796519334}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 942951888}
+        m_TargetAssemblyTypeName: GlassControll, Assembly-CSharp
+        m_MethodName: Glass4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1796519334
 MonoBehaviour:
   m_ObjectHideFlags: 0
