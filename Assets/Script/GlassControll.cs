@@ -7,13 +7,13 @@ public class GlassControll : MonoBehaviour
 {
     [SerializeField] ARFaceManager faceManager;
 
-    [SerializeField] GameObject glassPrefab;
+    [SerializeField] GameObject[] glassPrefabs;
 
     private GameObject glassTracker;
 
     private void Awake()
     {
-        glassTracker = Instantiate(glassPrefab);
+        glassTracker = Instantiate(glassPrefabs[0]);
 
     }
 
@@ -25,7 +25,6 @@ public class GlassControll : MonoBehaviour
     private void OnDisable()
     {
         faceManager.facesChanged -= OnFaceChange;
-
     }
 
     private void OnFaceChange(ARFacesChangedEventArgs args)
