@@ -17,7 +17,7 @@ public class GlassControll : MonoBehaviour
 
             glassTracker.SetActive(false);
         }
-       
+
     }
 
     private void OnEnable()
@@ -33,7 +33,7 @@ public class GlassControll : MonoBehaviour
     private void OnFaceChange(ARFacesChangedEventArgs args)
     {
         // 추적중인 얼굴에 변경사항(위치, 회전)이 있을 때
-        if (args.updated.Count > 0)                 
+        if (args.updated.Count > 0)
         {
             // ARFace를 가져와서
             ARFace face = args.updated[0];
@@ -42,7 +42,7 @@ public class GlassControll : MonoBehaviour
             glassTracker.transform.position = glassPos;
             glassTracker.SetActive(true);
         }
-        else if(args.removed.Count > 0)
+        else if (args.removed.Count > 0)
         {
             glassTracker.SetActive(false);
         }
@@ -81,5 +81,15 @@ public class GlassControll : MonoBehaviour
         glassTracker.SetActive(false);
 
         glassTracker = Instantiate(glassPrefabs[4]);
+    }
+
+    public void RandomGlass()
+    {
+        int random = Random.Range(0, glassPrefabs.Length);
+
+        glassTracker.SetActive(false);
+
+        glassTracker = Instantiate(glassPrefabs[random]);
+
     }
 }
